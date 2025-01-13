@@ -17,7 +17,7 @@ import com.ui.pojo.User;
 public class ExcelReaderUtility {
 	public static Iterator<User> readExcelFile(String fileName) {
 		// to read XLSX file we need to use XSSFWorkbook
-		File xlsxFile = new File(System.getProperty("user.dir") + "//testData//" + fileName);
+		File xlsxFile = new File(System.getProperty("user.dir") + "//testData//" + fileName);// changed here
 		XSSFWorkbook xssfWorkbook = null;
 		Row row;
 		Cell emailAddressCell;

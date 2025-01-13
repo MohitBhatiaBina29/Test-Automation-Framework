@@ -156,7 +156,7 @@ public abstract class BrowserUtility {
 		// 4. Define Destination Path for the Screenshot
 		// Construct the path where the screenshot will be saved, using the name and
 		// timestamp
-		String path = "./screenshots/" + name + " - " + timeStamp + ".png";
+		String path = "./screenshots/" + name + " - " + timeStamp + ".png";// changed here
 
 		// 5. Create Destination File Object
 		// Create a File object that points to the destination where the screenshot will
