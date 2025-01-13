@@ -20,9 +20,9 @@ public class TestListener implements ITestListener {
 
 	Logger logger = LoggerUtility.getLogger(this.getClass());
 
-	// 3 classes are gonna into picture for extent reports-
+	// 3 classes are gonna come into picture for extent reports-
 	ExtentSparkReporter extentSparkReporter;// job: to create HTML file
-	ExtentReports extentReports;// job: to do heavylifting, dumbing of data
+	ExtentReports extentReports;// job: to do heavylifting, dumping of data
 	ExtentTest extentTest;// job: is to store info about test
 
 	public void onTestStart(ITestResult result) {
