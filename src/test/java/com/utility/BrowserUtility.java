@@ -141,7 +141,7 @@ public abstract class BrowserUtility {
 	public String takeScreenshot(String name) {
 		// 1. Create TakesScreenshot Object by casting the WebDriver
 		// Cast the driver to TakesScreenshot to enable screenshot functionality
-		TakesScreenshot screenshot = (TakesScreenshot) driver;
+		TakesScreenshot screenshot = (TakesScreenshot) driver.get();//Added here
 
 		// 2. Get Current Date and Time for Timestamp
 		// Create a Date object and use SimpleDateFormat to format the timestamp
