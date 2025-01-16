@@ -8,28 +8,25 @@ import java.util.Properties;
 
 import com.constants.Env;
 
-public class PropertiesUtil {// job of this class is to read 'Properties File'
+public class PropertiesUtil {
+//read properties file!!
 
 	public static String readProperty(Env env, String propertyName) {
-
-		File propFile = new File(System.getProperty("user.dir") + "//config//" + env + ".properties");// changed here
+		System.out.println(System.getProperty("user.dir"));
+		File propFile = new File(System.getProperty("user.dir") + "//config//" + env + ".properties");
 		FileReader fileReader = null;
 		Properties properties = new Properties();
 		try {
 			fileReader = new FileReader(propFile);
 			properties.load(fileReader);
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
 		catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		String value = properties.getProperty(propertyName.toUpperCase());
 		return value;
-
 	}
-
 }

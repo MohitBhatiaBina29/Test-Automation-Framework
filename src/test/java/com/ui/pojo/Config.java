@@ -12,6 +12,5 @@ public class Config {
 	public void setEnvironments(Map<String, Environment> environments) {
 		this.environments = environments;
 	}
-	
 
 }

@@ -1,4 +1,3 @@
-
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Automation Practice Test Suite" parallel="methods"
@@ -10,10 +9,10 @@
 
 		<classes>
 			<class name="com.ui.tests.LoginTest" />
-<!--			<class name="com.ui.tests.InvalidCredLoginTest" />-->
-<!--			<class name="com.ui.tests.AddNewFirstAddressTest" />-->
-<!--			<class name="com.ui.tests.ProductCheckoutTest" />-->
-<!--			<class name="com.ui.tests.SearchProductTest" />-->
+			<class name="com.ui.tests.InvalidCredLoginTest" />
+			<class name="com.ui.tests.AddNewFirstAddressTest" />
+			<class name="com.ui.tests.ProductCheckoutTest" />
+			<class name="com.ui.tests.SearchProductTest" />
 		</classes>
 	</test>
 
