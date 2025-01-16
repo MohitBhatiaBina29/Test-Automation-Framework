@@ -29,13 +29,13 @@ public class LambdaTestUtility {
         
         Map<String, Object> ltOptions = new HashMap();
         
-//        ltOptions.put("user", "mohitbhatia.bina");
-//        
-//        // LambdaTest access key, used for authentication during session creation
-//        ltOptions.put("accessKey", "lxstEhlHvY4Kdoad1AAznNPWYtok9izA1VKvwfxjWW699rwtkF");
+        ltOptions.put("user", "mohitbhatia.bina");
         
-        ltOptions.put("user", "jatintestautomationacademy");
-		ltOptions.put("accessKey", "zevQUy7S5LsXbkclaq4TvMbKDdCMFN7AeoNGvaaelLULXHPlJe");
+        // LambdaTest access key, used for authentication during session creation
+        ltOptions.put("accessKey", "lxstEhlHvY4Kdoad1AAznNPWYtok9izA1VKvwfxjWW699rwtkF");
+//        
+//        ltOptions.put("user", "jatintestautomationacademy");
+//		ltOptions.put("accessKey", "zevQUy7S5LsXbkclaq4TvMbKDdCMFN7AeoNGvaaelLULXHPlJe");
 
         ltOptions.put("build", "Selenium 4");
         
