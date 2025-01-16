@@ -21,6 +21,8 @@ public class AddressPage extends BrowserUtility {
 	private static final By SAVE_ADDRESS_BUTTON_LOCATOR = By.id("submitAddress");
 
 	private static final By ADDRESS_HEADING = By.tagName("h3");
+	
+//	dummy
 
 
 	public AddressPage(WebDriver driver) {
